@@ -95,7 +95,6 @@ public class People {
         {
             int stafmoney=0;
             int stafg=0;
-            int tygri=0;
             if(type.equals("почасовая"))
             {
                 if(children.equals("Yes"))
@@ -187,10 +186,4 @@ public class People {
             }
         }
     }
-        private void display(){
-            System.out.println("FIO:  "+fIO+"   Вид Оплаты:  "+type+"    Сумма:  "+money);
-        }
-
-
-
 }
